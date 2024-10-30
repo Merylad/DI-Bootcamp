@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(247, 157, 219, 0.5);
+}
+
+#wrap{
+    border: black 2px dashed;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    padding: 5px;
+}
+
+h1, li{
+    font-style: italic;
+    font-family: ;
+}
+
+h1{
+    border-bottom:black 2px dashed ;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+li::first-letter{
+    font-weight: bold;
+}
