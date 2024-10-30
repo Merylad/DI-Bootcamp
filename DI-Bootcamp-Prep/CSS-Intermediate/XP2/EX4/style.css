@@ -1,0 +1,37 @@
+body{
+    border: 1px solid black;
+    
+}
+
+#title{
+    border-bottom: 1px solid black;
+}
+
+.pink{
+    background-color: pink;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.blue{
+    background-color: blue;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+.col{
+    display: flex;
+    gap: 10px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.content div{
+    height: 50px;
+}

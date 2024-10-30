@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(7, 97, 232);
+    margin: 0;
+}
+
+#nav{
+    background-color: rgb(144, 200, 236);
+    padding: 10px;
+}
+
+#content{
+    background-color: rgb(36, 129, 184);
+    padding: 10px;
+    text-align: center;
+}
+
+#content li{
+    list-style: none;
+}
+
+#wrap{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.copyright{
+   text-align: left;
+   margin-left: 150px;
+}

@@ -1,0 +1,48 @@
+body{
+    border: 1px solid black;
+    
+}
+
+#title{
+    border-bottom: 1px solid black;
+}
+
+#green{
+    background-color: green;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.blocks div{
+    width: 150px;
+    height: 150px;
+}
+
+.content{
+    padding: 10px;
+}
+
