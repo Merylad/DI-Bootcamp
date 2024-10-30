@@ -12,12 +12,19 @@ body{
 
 h1, li{
     font-style: italic;
-    font-family: ;
+    
+}
+
+h1+p{
+    font-size: 0.7rem;
 }
 
 h1{
     border-bottom:black 2px dashed ;
     margin: auto;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 li{
@@ -27,4 +34,8 @@ li{
 
 li::first-letter{
     font-weight: bold;
+}
+
+.copyright{
+    font-size: 0.5rem;
 }
