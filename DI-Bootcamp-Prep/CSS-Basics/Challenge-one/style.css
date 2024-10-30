@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(0, 217, 255, 0.5);
+}
+
+ul li{
+    list-style: none;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+ul li::first-letter{
+    text-transform: capitalize;
+    font-weight: bold;
+}
