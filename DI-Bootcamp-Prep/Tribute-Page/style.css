@@ -1,0 +1,43 @@
+nav, #home{
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.brand-logo{
+    font-size: 50px !important;
+    margin-left: 20px;
+}
+
+
+#home{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtVNrFT06kAZdbyG3wBCoSIydniXc3BuWvw&s") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    color: antiquewhite;
+
+    
+}
+
+#disco ul li {
+    list-style-type: circle !important;
+  }
+
+.award-date{
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#awards{
+    display: flex;
+}
+
+#celine-award{
+    width: 50%;
+    
+}
