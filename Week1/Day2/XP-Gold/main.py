@@ -45,3 +45,49 @@
 #         print (f'The letter {letter} is a vowel')
 #     else:
 #         print (f'The letter {letter} is a consonant')
+
+###EX6
+
+# words = input('Write 7 words seperated by a space : ').lower().split()
+# letter = input ('Write a letter : ').lower()
+
+# for word in words :
+#     if letter in word :
+#         print (f'the letter {letter} is in {word} at the index of {word.index(letter)} ')
+#     else : 
+#          print (f'the letter {letter} is not in {word} ')
+
+###EX7
+
+# numbers = list(range(1000001))
+# print (min(numbers))
+# print (max(numbers))
+# print (sum(numbers))
+
+###EX8
+
+# numbers = input ('Write some numbers separated by a comma : ').split(',')
+# my_tuple = tuple(numbers)
+
+# print ('List', numbers)
+# print ('Tuple', my_tuple)
+
+###EX9
+import random
+
+win = 0
+lost = 0
+
+while True :
+    num = input ('Write a number between 1 and 9 and quit to stop : ')
+    random_num = random.randint(0,9)
+
+    if num == 'quit':
+        print(f'You lost {lost} times and won {win} times')
+        break
+    elif int(num) == random_num:
+        win+=1
+        print (f'WWOOOWWW congrats you won!')
+    else:
+        lost+=1
+        print('Better luck next time!')
