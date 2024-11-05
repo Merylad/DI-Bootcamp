@@ -141,13 +141,13 @@
 
 # print(f'The ticket prices for the cinema will cost you {family_price} $')
 
-teenagers_names = ['Michael', 'Florian', 'Alexis', 'Yohann', 'Gerald', 'Fabrice']
+# teenagers_names = ['Michael', 'Florian', 'Alexis', 'Yohann', 'Gerald', 'Fabrice']
 
-for teenage in teenagers_names:
-    age = input (f'Hey {teenage}, how old are you ? ')
-    if int(age) < 16 or int(age) >21 :
-        teenagers_names.remove (teenage)
-        print(f'Sorry {teenage} you dont have the required age you have been deleted')
+# for teenage in teenagers_names:
+#     age = input (f'Hey {teenage}, how old are you ? ')
+#     if int(age) < 16 or int(age) >21 :
+#         teenagers_names.remove (teenage)
+#         print(f'Sorry {teenage} you dont have the required age you have been deleted')
 
 # print (teenagers_names)
 
