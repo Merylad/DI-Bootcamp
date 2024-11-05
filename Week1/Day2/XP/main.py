@@ -57,10 +57,19 @@
 #Recap – What is a float? What is the difference between an integer and a float?
 # A float is with decimal values
 
-# my_list = list(range(3,10))
-# float_list = []
-# for num in my_list:
-#     float_list.append(num/2)
+my_list = list(range(3,11))
+float_list = []
+float_and_int = []
+for num in my_list:    
+    float_list.append(num/2)
+
+for num in float_list:
+    if num%1 == 0:
+        float_and_int.append(int(num))
+    else:
+        float_and_int.append(num)
+
+print(float_and_int)
 
 # print (float_list)
 
