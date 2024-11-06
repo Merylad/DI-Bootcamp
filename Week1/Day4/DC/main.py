@@ -16,7 +16,7 @@ matrix_list=[]
 for item in matrix_list_of_str:
     matrix_list.append(list(item))
 
-print(matrix_list)
+# print(matrix_list)
 
 # matrix_list = [
 #     ['7', 'i', 'i'], 
@@ -50,4 +50,5 @@ for char in text :
 
     
 
-print(decrypted_text)
+# print(decrypted_text)
+# decrypted_text = 'This is Matrix'
