@@ -2,16 +2,15 @@
 #Challenge 1
 ###################
 
-# word = list(input ('Write a word : '))
-# user_dict = {}
+word = input ('Write a word : ')
+user_dict = {}  
+for i , char  in enumerate(word) :
+    if char in user_dict.keys():
+        user_dict[char].append(i)
+    else:
+        user_dict[char] = [i]
 
-# for i, char in enumerate(word) :
-#     if char in user_dict.keys():
-#         user_dict[char].append(i)
-#     else:
-#         user_dict[char] = [i]
-
-# print (user_dict)
+print (user_dict)
 
 ###################
 #Challenge 2

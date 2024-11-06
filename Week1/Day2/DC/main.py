@@ -11,14 +11,14 @@ print(user_list)
 
 #CHALLENGE 2#
 
-user_word = input('Type a word : ').lower()  
-new_user_word = ''
-previous_letter=''
+# user_word = input('Type a word : ').lower()  
+# new_user_word = ''
+# previous_letter=''
 
-for letter in user_word:
-    if letter is not previous_letter:
-        new_user_word += letter 
-        previous_letter = letter 
+# for letter in user_word:
+#     if letter is not previous_letter:
+#         new_user_word += letter 
+#         previous_letter = letter 
 
 
-print(new_user_word)
+# print(new_user_word)
