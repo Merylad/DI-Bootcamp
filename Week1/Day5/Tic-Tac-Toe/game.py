@@ -16,14 +16,14 @@ def player_input(player, turn, board):
     
     if 0>user_row or user_row>2 :
         print('This row does not exist')
-        return player_input(player, turn)
+        return player_input(player, turn,board)
     
     user_col = int(input('Enter your column : '))-1
     
 
     if 0>user_col or user_col>2 :
         print('This column does not exist')
-        return player_input(player, turn)
+        return player_input(player, turn,board)
     
     
 
@@ -32,7 +32,7 @@ def player_input(player, turn, board):
     
     else:
         print('This place is already taken please chose another one: ')
-        player_input(player, turn)
+        player_input(player, turn, board)
     
 
 
