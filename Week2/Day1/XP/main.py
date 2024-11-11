@@ -114,7 +114,6 @@ class Zoo :
                 sorted_animals_number[index+1] = sorted(sorted_animals_letter[letter])
 
         print(sorted_animals_letter)
-        print(dict(enumerate(sorted_animals_letter)))
 
         #sorted_animals_number={1: 'ape', 2: ['baboon', 'bear'], 3: ['cat', 'cougar'], 4: ['eel', 'emu']}
 
