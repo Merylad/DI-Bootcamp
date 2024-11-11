@@ -1,6 +1,6 @@
 import math
 
-class Pagination :
+class Pagination:
 
     def __init__(self, items = [], pageSize = 10):
         self.items = items
