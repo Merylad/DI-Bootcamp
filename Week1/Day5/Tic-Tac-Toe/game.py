@@ -8,31 +8,40 @@ def display_board(board) :
 
 
 def player_input(player, turn, board):
+    print(f"Player {player}, it's your turn!")
 
-    print(f'Player {player} its up to you: ')
+    while True:
+        try:
+            user_row = int(input("Enter your row (1, 2, or 3): "))
+            if user_row not in {1, 2, 3}:
+                print("Invalid input! You can only choose 1, 2, or 3 for the row.")
+                continue
+        except ValueError:
+            print("You must enter a number for the row.")
+            continue
 
-    user_row = int(input('Enter your row : '))-1
+        try:
+            user_col = int(input("Enter your column (1, 2, or 3): "))
+            if user_col not in {1, 2, 3}:
+                print("Invalid input! You can only choose 1, 2, or 3 for the column.")
+                continue
+        except ValueError:
+            print("You must enter a number for the column.")
+            continue
 
-    
-    if 0>user_row or user_row>2 :
-        print('This row does not exist')
-        return player_input(player, turn,board)
-    
-    user_col = int(input('Enter your column : '))-1
-    
+        
+        user_row -= 1
+        user_col -= 1
 
-    if 0>user_col or user_col>2 :
-        print('This column does not exist')
-        return player_input(player, turn,board)
-    
-    
+        
+        if board[user_row][user_col] == ' ':
+            board[user_row][user_col] = player
+            break
+        else:
+            print("This place is already taken. Please choose another position.")
 
-    if board[user_row][user_col]==' ':
-        board[user_row][user_col] = player
-    
-    else:
-        print('This place is already taken please chose another one: ')
-        player_input(player, turn, board)
+    return board
+
     
 
 
