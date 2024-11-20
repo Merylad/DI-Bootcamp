@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Zambia",
+        "capital": "Lusaka",
+        "flag": "https://flagcdn.com/zm.svg",
+        "subregion": "Eastern Africa",
+        "population": 18383956
+    },
+    {
+        "name": "American Samoa",
+        "capital": "Pago Pago",
+        "flag": "https://flagcdn.com/as.svg",
+        "subregion": "Polynesia",
+        "population": 55197
+    },
+    {
+        "name": "United Arab Emirates",
+        "capital": "Abu Dhabi",
+        "flag": "https://flagcdn.com/ae.svg",
+        "subregion": "Western Asia",
+        "population": 9890400
+    },
+    {
+        "name": "Sint Maarten",
+        "capital": "Philipsburg",
+        "flag": "https://flagcdn.com/sx.svg",
+        "subregion": "Caribbean",
+        "population": 40812
+    },
+    {
+        "name": "Martinique",
+        "capital": "Fort-de-France",
+        "flag": "https://flagcdn.com/mq.svg",
+        "subregion": "Caribbean",
+        "population": 378243
+    },
+    {
+        "name": "Germany",
+        "capital": "Berlin",
+        "flag": "https://flagcdn.com/de.svg",
+        "subregion": "Western Europe",
+        "population": 83240525
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "capital": "Basseterre",
+        "flag": "https://flagcdn.com/kn.svg",
+        "subregion": "Caribbean",
+        "population": 53192
+    },
+    {
+        "name": "Philippines",
+        "capital": "Manila",
+        "flag": "https://flagcdn.com/ph.svg",
+        "subregion": "South-Eastern Asia",
+        "population": 109581085
+    },
+    {
+        "name": "Pakistan",
+        "capital": "Islamabad",
+        "flag": "https://flagcdn.com/pk.svg",
+        "subregion": "Southern Asia",
+        "population": 220892331
+    },
+    {
+        "name": "Anguilla",
+        "capital": "The Valley",
+        "flag": "https://flagcdn.com/ai.svg",
+        "subregion": "Caribbean",
+        "population": 13452
+    }
+]
