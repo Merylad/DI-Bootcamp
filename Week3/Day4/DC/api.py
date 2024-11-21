@@ -46,7 +46,8 @@ create_table_query = f'''CREATE TABLE random_countries (
                         name VARCHAR(100) NOT NULL,
                         capital VARCHAR(100) NOT NULL,
                         flag_code VARCHAR(100),
-                        population INTEGER)'''
+                        population INTEGER,
+                        subregion VARCHAR(100))'''
 
 cursor.execute(create_table_query)
 connection.commit()
@@ -58,16 +59,17 @@ connection.commit()
 
 
 def insert_into_query(data):
-    query = f''' INSERT INTO random_countries (name, capital, flag_code, population)
+    query = f''' INSERT INTO random_countries (name, capital, flag_code, population, subregion)
                 VALUES ('{data["name"]["common"]}',
                         '{data['capital'][0]}',
                         '{data["flags"]["svg"]}',
-                         {data['population']})
+                         {data['population']},
+                         '{data['subregion']}')
             '''
     
     cursor.execute(query)
     connection.commit()
-    
+
 for country in random_countries:
     insert_into_query(country)
 
