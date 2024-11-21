@@ -23,8 +23,8 @@ class MenuManager:
             menu.append({'name' : item[1], 'price': item[2]})
         return menu
 
-menu=MenuManager()
-# menu.get_by_name('thing')
-print(menu.all_items())
+# menu=MenuManager()
+# # menu.get_by_name('thing')
+# print(menu.all_items())
 
-print(MenuManager.get_by_name('Burger'))
+# print(MenuManager.get_by_name('Burger'))
