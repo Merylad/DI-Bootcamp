@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: rgb(0,0,0,0.2);
+    color: white;
+    
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+}
+
+body{
+    background-image: url('premium_photo-1661948711769-a7fa4c0f4608.avif');
+}
