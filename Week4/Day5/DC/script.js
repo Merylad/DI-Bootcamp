@@ -8,6 +8,7 @@ myForm.addEventListener('submit', function(e){
     e.preventDefault()
     const taskText = userTask.value;
 
+    // Create the new task elements
     let div = document.createElement('div');
     div.setAttribute('class', 'row container thisDiv')
     
@@ -16,6 +17,7 @@ myForm.addEventListener('submit', function(e){
     let span = document.createElement('span')
     let label = document.createElement('label')
     span.textContent = taskText
+    span.setAttribute('class', 'oneTask')
     
     checkbox.setAttribute('type', 'checkbox');
     

@@ -8,6 +8,7 @@
 #container {
     text-align: center;
     background-color: rgb(238, 227, 247);
-    height: 100vh;
+    height: 80vh;
+    width: 500px;
 }
 
