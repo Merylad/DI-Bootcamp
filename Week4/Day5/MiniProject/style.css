@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#pickColor {
+    flex: 0 0 20%; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    padding: 10px;
+    background-color: ghostwhite;
+    border: 2px solid red;
+}
+
+#btnSection {
+    width: 100%; /* Ensure button section spans the full width */
+    margin-bottom: 20px; /* Add space below the button section */
+    text-align: center; /* Center the button */
+}
+
+#clearBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#pickColor div {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#pickColor {
+    display: flex;
+    flex-wrap: wrap; /* Wrap the divs into rows */
+    justify-content: center; /* Center divs horizontally */
+    gap: 10px; /* Space between divs */
+}
+
+#drawing {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(60, 1fr); /* Create 50 columns */
+    grid-template-rows: repeat(24, 1fr); /* Create 20 rows */
+    gap: 1px; /* Add a small gap between "pixels" */
+    width: 1200px; /* Set a fixed width for the pixel grid */
+    height: 800px; /* Set a fixed height for the pixel grid */
+    background-color: ghostwhite;
+    
+}
+
+#drawing div {
+    background-color: lightgray; /* Default pixel color */
+    width: 20 px; 
+    height: 20px; 
+    border: none; /* Remove borders for a clean pixel look */
+}
