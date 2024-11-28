@@ -1,0 +1,13 @@
+.oneTask {
+    width: 250px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    
+}
+
+#container {
+    text-align: center;
+    background-color: rgb(238, 227, 247);
+    height: 100vh;
+}
+
