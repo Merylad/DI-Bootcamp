@@ -1,0 +1,26 @@
+#navBar{
+    background-color: aqua; 
+    height: 100px;  
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+    line-height: 80px;
+    font-weight: bold;
+}
+#name{
+    justify-content: flex-end;
+    padding:5px;
+    margin-right: 10px;
+}
+img{
+    border-radius: 50px;
+}
+
+
+
