@@ -14,17 +14,16 @@
 
 // 🌟 Exercise 2 : Colors #2
 
-// const colors = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"];
-// const ordinal = ["th","st","nd","rd"];
+const colors = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow","Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"];
+const ordinal = ["th","st","nd","rd"];
 
-// colors.forEach((val, i) => {
-//     let position = i+1
-//     let suffix = ''
-//     position == 1 || i ==2 || i ==3 ? suffix = ordinal [position] :
-//     suffix = ordinal [0]
-//     console.log(`My ${position}${suffix} choice is ${val}`)
+colors.forEach((val, i) => {
+    let position = i+1
+    let suffix = ''
+    position%10 <=3 ? suffix = ordinal [position%10] : suffix = ordinal [0]
+    console.log(`My ${position}${suffix} choice is ${val}`)
     
-// })
+})
 
 // Exercise 3 : Analyzing
 // My prevision : ['bread', 'carrot', 'potato', 'chicken', 'apple', 'orange']
