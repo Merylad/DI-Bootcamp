@@ -4,6 +4,12 @@ let clearBtn = document.getElementById('clearBtn')
 let userColor = ''
 let hasClicked = false
 
+let drawingSection = document.getElementById('drawing')
+for (let i = 0; i<2100; i++){
+    let div = document.createElement('div')
+    drawingSection.appendChild(div)
+}
+
 for (let color of colors){
     color.addEventListener('click', function(e){
         userColor = e.target.style.backgroundColor
