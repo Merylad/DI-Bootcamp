@@ -57,3 +57,26 @@ const [video1, video2, video3, video4, video5] = films //destructuring so i can 
 video4.watch() 
 
 // Output : Simba watched all 5100 seconds of The Lion King !
+
+
+
+
+// XP NINJA
+class Bird {
+    constructor() {
+      console.log("I'm a bird. 🦢");
+    }
+  }
+  
+  class Flamingo extends Bird {
+    constructor() {
+      console.log("I'm pink. 🌸");
+      super();
+    }
+  }
+  
+  const pet = new Flamingo();
+
+// My prevision :
+// I'm pink. 🌸
+// I'm a bird. 🦢
