@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+#navbar{
+    background-color: rgb(186, 239, 137);
+    display: flex;
+    gap: 30px;
+}
+
+#searchBar{
+    width: 700px;
+    margin-left: 150px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+#robofriends{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+#robots{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(circuit-pattern.png);
+    background-color: rgb(133, 19, 233);
+    gap: 10px;
+    justify-content: center;
+}
+
+.divRobot{
+    background-image: url(card-pattern.png);
+    background-color: rgb(18, 151, 174);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 300px;
+
+}
+
+img{
+    border: 2px solid blue;
+    border-radius: 50%;
+    background-color: rgb(46, 71, 102);
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.nameRobot{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(47, 45, 45);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.mailRobot{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    color: rgb(47, 45, 45);
+}
