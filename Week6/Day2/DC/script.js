@@ -30,7 +30,6 @@ function addToDom (data) {
     deleteBtn.textContent = 'Delete'
     deleteBtn.addEventListener('click', deleteGif)
     iframe.setAttribute('src', data.data.embed_url)
-    console.log(data.data.embed_url)
     div.appendChild(iframe)
     div.appendChild(deleteBtn)
     section.appendChild(div)
@@ -46,3 +45,4 @@ deleteAll.addEventListener('click', function(e){
     e.preventDefault()
     section.innerHTML=''
 })
+
