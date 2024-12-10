@@ -77,15 +77,13 @@ switchBtn.addEventListener('click', switchCurrency )
 
 async function switchCurrency (e) {
     e.preventDefault()
-    const data = new FormData (myForm)
-    const to = data.get('currencyFrom')
-    const from = data.get('currencyTo')
-    const amount = data.get('amount')
 
-    const rate = await getRate (from, to)
     
-    const convertAmount = amount * rate
+    const currencyFrom = document.querySelector('[name="currencyFrom"]');
+    const currencyTo = document.querySelector('[name="currencyTo"]');
+    
+    const temp = currencyFrom.value;
+    currencyFrom.value = currencyTo.value;
+    currencyTo.value = temp;
 
-    const divResult = document.getElementById('result')
-    divResult.textContent = `${convertAmount} ${to}`
 }
