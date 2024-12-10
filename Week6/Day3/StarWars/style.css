@@ -1,6 +1,7 @@
 body{
-    background-color: black;
+    /* background-color: black; */
     margin: 0;
+    background-image: url('https://i.giphy.com/media/TxVVB6PfWMjE4/200.webp');
 }
 
 #star-wars{
@@ -52,30 +53,3 @@ button {
     padding: 10px;
     cursor: pointer;
 }
-
-.starry-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Full width */
-    height: 200vh; /* Twice the viewport height for scrolling */
-  }
-
-  .star {
-    position: absolute;
-    background: white;
-    border-radius: 50%; /* Makes the stars round */
-    opacity: 0.7; /* Base opacity */
-    animation: shine 3s infinite ease-in-out; /* Shine effect */
-  }
-
-  @keyframes shine {
-    0%, 100% {
-      opacity: 0.3; /* Dimmest state */
-      transform: scale(1); /* Original size */
-    }
-    50% {
-      opacity: 1; /* Brightest state */
-      transform: scale(1.5); /* Slightly larger for shining effect */
-    }
-  }

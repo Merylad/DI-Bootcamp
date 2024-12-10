@@ -1,30 +1,7 @@
-const documentHeight = Math.max(
-    document.body.scrollHeight,
-    document.documentElement.scrollHeight,
-    document.body.offsetHeight,
-    document.documentElement.offsetHeight,
-    document.body.clientHeight,
-    document.documentElement.clientHeight
-  );
-
-const starryBackground = document.getElementById("starry-background");
-starryBackground.style.height = `${documentHeight}px`;
 const charSection = document.getElementById('charSection')
 const btnSearch =  document.getElementById('btnSearch')
 
-// Generate stars dynamically
-const numStars = 1000; 
-for (let i = 0; i < numStars; i++) {
-  const star = document.createElement("div");
-  star.classList.add("star");
-  const size = Math.random() * 2 + 1; // Random size between 1px and 3px
-  star.style.width = `${size}px`;
-  star.style.height = `${size}px`;
-  star.style.top = `${Math.random() * 100}%`; // Random vertical position
-  star.style.left = `${Math.random() * 100}%`; // Random horizontal position
-  star.style.animationDelay = `${Math.random() * 3}s`; // Staggered twinkle
-  starryBackground.appendChild(star);
-}
+
 
 
 async function getStarWarsChar (){
