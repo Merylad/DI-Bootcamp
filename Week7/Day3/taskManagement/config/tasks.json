@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Complete project",
+    "description": "Draft and submit the proposal for the upcoming project.",
+    "done": true
+  },
+  {
+    "id": 2,
+    "title": "Weekly team meeting",
+    "description": "Discuss updates and assign next steps for the team.",
+    "done": false
+  },
+  {
+    "id": 3,
+    "title": "Prepare presentation slides",
+    "description": "Create slides for the client presentation next week.",
+    "done": false
+  },
+  {
+    "id": 4,
+    "title": "Submit expense reports",
+    "description": "Compile and submit expense reports for the month.",
+    "done": false
+  },
+  {
+    "id": 5,
+    "title": "Code review",
+    "description": "Review code submissions from the development team.",
+    "done": false
+  },
+  {
+    "id": 7,
+    "title": "Conduct user interviews",
+    "description": "Interview users to gather feedback on the new feature.",
+    "done": false
+  },
+  {
+    "id": 8,
+    "title": "Plan team-building activity",
+    "description": "Organize a team-building event to improve collaboration and morale.",
+    "done": false
+  }
+]
