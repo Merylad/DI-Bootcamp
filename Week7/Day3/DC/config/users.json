@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@example.com",
+    "username": "johnny",
+    "password": "$2b$10$Qdyo41YrWB6.3Q5DpnryVOGHcMa2XtrzdRLNe6uuIAvNQqcP/2Kmi"
+  },
+  {
+    "id": 2,
+    "firstName": "David",
+    "lastName": "Levy",
+    "email": "davidlevy@example.com",
+    "username": "davidouch",
+    "password": "$2b$10$oMrDvuQAWG41abu3jr0MIe3gzinrfwakVjo4evmFiUcrjvEMw3.Ny"
+  },
+  {
+    "id": 3,
+    "firstName": "Sarah",
+    "lastName": "Bitton",
+    "email": "sarahbitton@example.com",
+    "username": "sarouch",
+    "password": "$2b$10$MTMefFbDDRYJnzzd1uv0qeJ.nsrAE8XBnDGfuaqlWeEPFpdoIWsCG"
+  },
+  {
+    "id": "4",
+    "firstName": "Naomie",
+    "lastName": "Adjedj",
+    "email": "naomieadjedj@example.com",
+    "username": "nounouchette",
+    "password": "$2b$10$Mr2okeZKO.Z.zOYpLFJdi.ZRKYLgHDD9t1GUqnERA71AOJ3C1DAPK"
+  },
+  {
+    "id": 5,
+    "firstName": "Naomie",
+    "lastName": "Adjedj",
+    "email": "naomieadjedj@example.com",
+    "username": "nounouche",
+    "password": "$2b$10$pRpHKwqBA.HxoK4R5G1OXOdBQQBuCn/8URfbTa2Q0honvMejpP9xS"
+  },
+  {
+    "id": 6,
+    "firstName": "Eliam",
+    "lastName": "Adjedj",
+    "email": "eliam@example.com",
+    "username": "eliamour",
+    "password": "$2b$10$lhb3ErboDnidPojaENvF.uAWDAycUcix36vrx3g0wNgPoVwhRDWUu"
+  },
+  {
+    "id": 7,
+    "firstName": "test",
+    "lastName": "test",
+    "email": "test@example.com",
+    "username": "testouche",
+    "password": "$2b$10$SWJmCOwrr8VKbOa.Ig0S6O4UDoTi0llCgRx8vp0NZ1uebQM8yQ812"
+  },
+  {
+    "id": 8,
+    "firstName": "raquel",
+    "lastName": "raquel",
+    "email": "raquel@example.com",
+    "username": "raquelouche",
+    "password": "$2b$10$lAAEGvfUtKSKRUq8VNpzyOSX2Xt5zCywhNn5I15bStauvWqeVjUXW"
+  },
+  {
+    "id": 9,
+    "firstName": "bla",
+    "lastName": "bla",
+    "email": "bla",
+    "username": "raquelouchette",
+    "password": "$2b$10$qKpHL5mpuLdJWncoBSbSS.v3rtGtbaOdIbhRxuAkAqRRoIN7PDSbq"
+  },
+  {
+    "id": 10,
+    "firstName": "Naomie",
+    "lastName": "Adjedj",
+    "email": "naomieadjedj@example.com",
+    "username": "nounouch",
+    "password": "$2b$10$I.EJ44tNQ.v208UC2Rf7k.YL9ZUMllOjfXuac3PVD/6kpxNkPn6z2"
+  }
+]
