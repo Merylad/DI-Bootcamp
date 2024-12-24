@@ -1,10 +1,22 @@
 import { useState } from 'react'
-import './App.css'
 import BuggyCounter from './components/BuggyCounter'
 import ErrorBoundary from './components/ErrorBoundary'
 import Color from './components/Color'
+import FormComponent from './components/FormComponent'
 
 function App() {
+
+  const [name, setName] = useState('')
+  const [lastName, setLastName] = useState('')
+  const [age, setAge] = useState('')
+  const [gender, setGender] = useState('')
+  const [destination, setDestination] = useState('')
+  const [nuts, setNuts] = useState(false)
+  const [lactose, setLactose] = useState(false)
+  const [vegan, setVegan] = useState(false)
+
+  const formData = { name,lastName, age, gender, destination, nuts, lactose, vegan };
+  const formHandlers = { setName, setLastName, setAge, setGender, setDestination, setNuts, setLactose, setVegan };
 
 
   return (
@@ -24,7 +36,8 @@ function App() {
     <h1>Simulation 3</h1>
     <BuggyCounter /> */}
 
-    <Color />
+    {/* <Color /> */}
+    <FormComponent formData={formData} formHandlers={formHandlers} />
     </>
     
   )
