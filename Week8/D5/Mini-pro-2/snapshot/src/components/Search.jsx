@@ -25,8 +25,9 @@ const Search = () => {
     }, [query]);
 
     return (
-        <>
+        <><h2>{query.charAt(0).toUpperCase() + query.slice(1)} Pictures</h2>
         <section>
+            
             {photos.map((picture, index) => {
                 return(
                     <img src={picture.src.medium} alt={picture.alt} key={index} />
