@@ -1,0 +1,57 @@
+body {
+    background-color: blueviolet;
+}
+
+section{
+    color: white;
+}
+
+input {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(221, 145, 211, 0.988);
+    text-align: center;
+    font-size: 20px;
+    width: 150px;
+    color: purple;
+    font-weight: bold;
+}
+
+#inputs{
+    display: flex;
+    gap: 10px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+
+#error {
+    font-weight: bold;
+    color: red;
+    background-color: bisque;
+    
+    
+}
+
+#btn {
+    background-color: purple;
+    color: white;
+    border-radius: 15px 50px 30px;
+}
+
+#result{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+select {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(221, 145, 211, 0.988);
+}

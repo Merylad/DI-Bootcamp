@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card {
+    border: 1px solid grey ;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: whitesmoke;
+    font-size: 20px;
+    
+}
+
+h5{
+    font-style: italic;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    color : whitesmoke
+}
+
+section {
+    padding-top: 100px;
+
+}
