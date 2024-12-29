@@ -1,0 +1,58 @@
+.task-manager {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-task {
+    margin-bottom: 10px;
+  }
+  
+  .add-task input {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .add-task button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .filter-buttons {
+    margin: 10px 0;
+  }
+  
+  .filter-buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .task-item input[type="text"] {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .task-item.completed span {
+    text-decoration: line-through;
+  }
+  
+  .task-item button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  

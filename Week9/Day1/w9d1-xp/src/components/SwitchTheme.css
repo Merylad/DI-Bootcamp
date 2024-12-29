@@ -1,0 +1,21 @@
+section {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+.light{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: blanchedalmond;
+}
