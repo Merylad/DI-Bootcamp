@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/index.css">
+    <title>Recipe App</title>
+  </head>
+  <body>
+    <div class="recipe-app">
+      
+      <form id="recipeEntryForm">
+        <input type="text" id="recipeTitle" placeholder="Recipe Title" required class="input" />
+        <textarea
+          id="ingredients"
+          placeholder="Enter ingredients (one per line)"
+          required
+          class="input" 
+        ></textarea>
+        <textarea
+          id="instructions"
+          placeholder="Enter cooking instructions"
+          required
+          class="input" 
+        ></textarea>
+        <button type="submit" class="btn">Add Recipe</button>
+      </form>
+    
+      <div id="recipeContainer"></div>
+    
+      <button id="clearRecipesButton">Clear All Recipes</button>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+body {
+    background-color: pink;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Vertically centers the form */
+    justify-content: center; /* Horizontally centers the form */
+    min-height: 100vh; /* Ensures the body takes up the full viewport height */
+    box-sizing: border-box;
+}
+
+.recipe-app {
+    width: 100%; /* Ensure full width for the recipe app container */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything inside recipe-app */
+    gap: 20px;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: palevioletred;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    position: relative; 
+}
+
+.input {
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input:focus {
+    outline: 2px solid pink;
+}
+
+.btn {
+    width: 200px;
+    align-self: center;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #ffb3b3;
+    transform: scale(1.05);
+}
+
+.card {
+    border: 2px solid palevioletred;
+    border-radius: 15px;
+    width: 300px;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#recipeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: palevioletred;
+    margin-bottom: 10px;
+}
+
+.deletebtn {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.deletebtn:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+}
+
+#clearRecipesButton {
+    background-color: palevioletred;
+    padding: 15px 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#clearRecipesButton:hover {
+    background-color: #d26482;
+    transform: scale(1.05);
+}
+
+.favbtn {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    background-color: rgb(244, 176, 199); /* Matches your theme */
+    color: white;
+    border: none;
+    position: absolute; /* For precise positioning within the card */
+    top: 10px; /* 10px from the top of the card */
+    right: 10px; /* 10px from the right of the card */
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.favbtn:hover {
+    background-color: #d26482; /* Slightly darker shade on hover */
+    transform: scale(1.1); /* Enlarges the button slightly */
+}
